@@ -1,7 +1,14 @@
+# http://stackoverflow.com/questions/19023550/how-do-i-add-files-without-dots-in-them-all-extension-less-files-to-the-gitign
+# To ignore executables doesn't have extensions
+*
+!/**/
+!*.*
+
 *~
 *.o
 *.swp
 *.un~
+*.DS_Store
 
 branch_prediction/branch_prediction_with_sorted_array
 branch_prediction/branch_prediction_with_unsorted_array
